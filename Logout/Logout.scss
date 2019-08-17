@@ -1,0 +1,31 @@
+.logout {
+  width: 140px;
+  height: 100px;
+  padding: 5px 5px;
+  background-color: gray;
+  color: white;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.logout__display {
+  padding-top: 8px;
+}
+
+.logout__display__seperator {
+  padding: 5px;
+  font-weight: normal;
+}
+
+.logout__display__link {
+  background-color: transparent;
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

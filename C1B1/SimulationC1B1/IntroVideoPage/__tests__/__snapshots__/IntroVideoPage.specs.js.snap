@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IntroVideoPage /> The page renders correctly 1`] = `
+<Layout
+  defaultStyle={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+    }
+  }
+>
+  <DataStoreSubscribe
+    to={null}
+  >
+    <Component />
+  </DataStoreSubscribe>
+</Layout>
+`;

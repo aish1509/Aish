@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SettingsIcon /> should render correctly 1`] = `
+<div
+  className="settings-icon"
+>
+  <WithStyles(ForwardRef(IconButton))
+    onClick={[Function]}
+  >
+    <SettingsIcon
+      style={
+        Object {
+          "color": "white",
+          "fontSize": "20px",
+        }
+      }
+    />
+    <ArrowDropDownIcon
+      style={
+        Object {
+          "color": "white",
+          "fontSize": "28px",
+        }
+      }
+    />
+  </WithStyles(ForwardRef(IconButton))>
+</div>
+`;

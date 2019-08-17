@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MathButton /> is disabled should render correctly 1`] = `
+<button
+  className={[Function]}
+  disabled={true}
+  onClick={[Function]}
+>
+  Go On
+</button>
+`;
+
+exports[`<MathButton /> is not disabled should render correctly 1`] = `
+<button
+  className={[Function]}
+  disabled={false}
+  onClick={[Function]}
+>
+  Go On
+</button>
+`;
+
+exports[`<MathButton /> useStyles primary disabled 1`] = `
+Object {
+  "&:hover": Object {
+    "backgroundColor": "#9BB1BD",
+  },
+  "backgroundColor": "#9BB1BD",
+  "border": "none",
+  "borderRadius": "74px",
+  "color": "#FFFFFF",
+  "cursor": "default",
+  "fontFamily": undefined,
+  "fontSize": "12px",
+  "fontStyle": "normal",
+  "fontWeight": "bold",
+  "height": "30px",
+  "letterSpacing": "0.015em",
+  "textTransform": "capitalize",
+  "width": "150px",
+}
+`;
+
+exports[`<MathButton /> useStyles primary enabled 1`] = `
+Object {
+  "&:hover": Object {
+    "backgroundColor": "#003F6A",
+  },
+  "backgroundColor": "#005E9D",
+  "border": "none",
+  "borderRadius": "74px",
+  "color": "#FFFFFF",
+  "cursor": "pointer",
+  "fontFamily": undefined,
+  "fontSize": "12px",
+  "fontStyle": "normal",
+  "fontWeight": "bold",
+  "height": "30px",
+  "letterSpacing": "0.015em",
+  "textTransform": "capitalize",
+  "width": "150px",
+}
+`;
+
+exports[`<MathButton /> useStyles secondary disabled 1`] = `
+Object {
+  "&:hover": Object {
+    "backgroundColor": "#FFFFFF",
+  },
+  "backgroundColor": "#FFFFFF",
+  "border": "1.5px solid #9BB1BD",
+  "borderRadius": "74px",
+  "color": "#9BB1BD",
+  "cursor": "default",
+  "fontFamily": undefined,
+  "fontSize": "12px",
+  "fontStyle": "normal",
+  "fontWeight": "bold",
+  "height": "30px",
+  "letterSpacing": "0.015em",
+  "textTransform": "capitalize",
+  "width": "150px",
+}
+`;
+
+exports[`<MathButton /> useStyles secondary enabled 1`] = `
+Object {
+  "&:hover": Object {
+    "backgroundColor": "#B3CFE2",
+  },
+  "backgroundColor": "#FFFFFF",
+  "border": "1.5px solid #005E9D",
+  "borderRadius": "74px",
+  "color": "#005E9D",
+  "cursor": "pointer",
+  "fontFamily": undefined,
+  "fontSize": "12px",
+  "fontStyle": "normal",
+  "fontWeight": "bold",
+  "height": "30px",
+  "letterSpacing": "0.015em",
+  "textTransform": "capitalize",
+  "width": "150px",
+}
+`;
+
+exports[`<MathButton /> useStyles with buttonStyleModifier 1`] = `
+Object {
+  "&:hover": Object {
+    "backgroundColor": "#003F6A",
+  },
+  "backgroundColor": "#005E9D",
+  "border": "none",
+  "borderRadius": "74px",
+  "color": "#FFFFFF",
+  "cursor": "pointer",
+  "fontFamily": undefined,
+  "fontSize": "12px",
+  "fontStyle": "normal",
+  "fontWeight": "bold",
+  "height": "100px",
+  "letterSpacing": "0.015em",
+  "textTransform": "capitalize",
+  "width": "100px",
+}
+`;

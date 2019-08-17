@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> mount component verify when pathname is /explorezone/anchorvideo 1`] = `
+<ZoneHeader
+  firstName="firstname"
+  lastName="lastname"
+  onHomeClick={[Function]}
+  onLogout={[Function]}
+  onSettingsClick={[Function]}
+  showSettings={true}
+  zoneName="EXPLORE_ZONE"
+>
+  <WithStyles(HeaderText)
+    subheaderText="Block 1: Rates in Time"
+  >
+    Explore Zone
+  </WithStyles(HeaderText)>
+</ZoneHeader>
+`;
+
+exports[`<Header /> mount component verify when pathname is /explorezone/simulation 1`] = `
+<ZoneHeader
+  firstName="firstname"
+  lastName="lastname"
+  onHomeClick={[Function]}
+  onLogout={[Function]}
+  onSettingsClick={[Function]}
+  showSettings={true}
+  zoneName="EXPLORE_ZONE"
+>
+  <WithStyles(HeaderText)
+    subheaderText="Block 1: Multiplicative Thinking"
+  >
+    Explore Zone
+  </WithStyles(HeaderText)>
+</ZoneHeader>
+`;
+
+exports[`<Header /> mount component verify when pathname is cat 1`] = `
+<M180Header
+  firstName="firstname"
+  lastName="lastname"
+  onLogout={[Function]}
+  onSettingsClick={[Function]}
+  showSettings={false}
+>
+  Question Validation Tool
+</M180Header>
+`;
+
+exports[`<Header /> mount component watch snapshot 1`] = `
+<ZoneHeader
+  firstName="firstname"
+  lastName="lastname"
+  onHomeClick={[Function]}
+  onLogout={[Function]}
+  onSettingsClick={[Function]}
+  showSettings={true}
+  zoneName="EXPLORE_ZONE"
+>
+  <WithStyles(HeaderText)
+    subheaderText="Block 1: Rates in Time"
+  >
+    Explore Zone
+  </WithStyles(HeaderText)>
+</ZoneHeader>
+`;

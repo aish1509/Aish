@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderText /> should render correctly with default props 1`] = `
+<header>
+  <h3
+    className="HeaderText-header-1"
+  >
+    mock header text
+  </h3>
+</header>
+`;
+
+exports[`<HeaderText /> should render correctly with subHeaderText set 1`] = `
+<header>
+  <h6
+    className="HeaderText-subheader-2"
+  >
+    mockSubheaderText
+  </h6>
+  <h3
+    className="HeaderText-header-1"
+  >
+    mock header text
+  </h3>
+</header>
+`;

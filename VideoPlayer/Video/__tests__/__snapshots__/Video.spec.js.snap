@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Video /> should render correctly 1`] = `
+<video
+  controlsList="nodownload"
+  crossOrigin="anonymous"
+  height="auto"
+  id="v"
+  onCanPlay={[MockFunction]}
+  onContextMenu={[Function]}
+  onEnded={null}
+  onLoadedMetadata={[MockFunction]}
+  onPause={[MockFunction]}
+  onPlay={[MockFunction]}
+  onSeeked={[MockFunction]}
+  onSeeking={[MockFunction]}
+  onTimeUpdate={[MockFunction]}
+  width="100%"
+/>
+`;

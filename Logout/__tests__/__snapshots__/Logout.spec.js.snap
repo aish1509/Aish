@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logout /> should render correctly 1`] = `
+<div
+  className={
+    Object {
+      "alignContent": "center",
+      "alignItems": "flex-end",
+      "color": "#E6F0F7",
+      "display": "flex",
+      "flexDirection": "column",
+      "fontFamily": Array [
+        "OpenSans-Regular",
+        "Roboto",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+      ],
+      "fontSize": "14px",
+      "height": "50px",
+      "justifyContent": "center",
+      "marginRight": "10px",
+    }
+  }
+>
+  Welcome, 
+  John
+  !
+  <button
+    className={
+      Object {
+        "background": "none",
+        "border": "none",
+        "color": "#E6F0F7",
+        "fontFamily": Array [
+          "OpenSans-Regular",
+          "Roboto",
+          "Helvetica",
+          "Arial",
+          "sans-serif",
+        ],
+        "fontSize": "12px",
+        "padding": "0",
+        "textDecorationLine": "underline",
+      }
+    }
+    onClick={[Function]}
+    type="button"
+  >
+    Logout
+  </button>
+</div>
+`;
+
+exports[`<Logout /> styles matches snapshot 1`] = `
+Object {
+  "container": Object {
+    "alignContent": "center",
+    "alignItems": "flex-end",
+    "color": "#E6F0F7",
+    "display": "flex",
+    "flexDirection": "column",
+    "fontFamily": Array [
+      "OpenSans-Regular",
+      "Roboto",
+      "Helvetica",
+      "Arial",
+      "sans-serif",
+    ],
+    "fontSize": "14px",
+    "height": "50px",
+    "justifyContent": "center",
+    "marginRight": "10px",
+  },
+  "logout": Object {
+    "background": "none",
+    "border": "none",
+    "color": "#E6F0F7",
+    "fontFamily": Array [
+      "OpenSans-Regular",
+      "Roboto",
+      "Helvetica",
+      "Arial",
+      "sans-serif",
+    ],
+    "fontSize": "12px",
+    "padding": "0",
+    "textDecorationLine": "underline",
+  },
+  "welcome": Object {
+    "color": "#4C5D65",
+    "fontFamily": Array [
+      "OpenSans-Regular",
+      "Roboto",
+      "Helvetica",
+      "Arial",
+      "sans-serif",
+    ],
+    "fontSize": "10px",
+  },
+}
+`;

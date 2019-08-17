@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SimulationC1B1Routes /> function props are passed in should render correctly 1`] = `
+<div
+  className="makeStyles-container-1"
+>
+  <div
+    className="makeStyles-c1b1image-3"
+  />
+  <SimulationC1B1Routes
+    history={
+      Object {
+        "location": Object {
+          "pathname": "/explorezone/simulation/albumpage",
+        },
+      }
+    }
+    path="/explorezone/simulation"
+  />
+  <div
+    className="makeStyles-navigationIcons-2"
+  >
+    <ButtonNavigation
+      history={
+        Object {
+          "location": Object {
+            "pathname": "/explorezone/simulation/albumpage",
+          },
+        }
+      }
+      path="/explorezone/simulation"
+    />
+  </div>
+</div>
+`;

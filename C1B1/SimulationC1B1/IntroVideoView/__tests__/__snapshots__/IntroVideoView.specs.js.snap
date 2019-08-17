@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IntroVideoVideo /> IntroVideoView renders correctly 1`] = `
+<ContentContainer
+  defaultStyle={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+      "padding": "10px",
+    }
+  }
+>
+  <WithStyles(VideoPlayer)
+    data-testid="VideoPlayer"
+    ended={true}
+    headerLeft="Release an album"
+    poster="/m180/media/video/en_US/anchor/M180_anchor_block_8_mVideos.png"
+    vol={0.25}
+  >
+    <source
+      src="https://iandevlin.github.io/mdn/video-player-with-captions/video/sintel-short.mp4"
+      type="video/mp4"
+    />
+    <track
+      default={true}
+      kind="subtitles"
+      label="English subtitle"
+      src="https://iandevlin.github.io/mdn/video-player-with-captions/subtitles/vtt/sintel-en.vtt"
+      srcLang="EN"
+    />
+  </WithStyles(VideoPlayer)>
+</ContentContainer>
+`;

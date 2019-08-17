@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SimulationLandingPage /> SimulationLandingPage renders content correctly 1`] = `
+<div
+  style="display: flex; flex-direction: column;"
+>
+  <div
+    class="makeStyles-container-9"
+  >
+    <div
+      class="makeStyles-leftSquare-12"
+    >
+      <div
+        class="makeStyles-svgPos-11"
+      >
+        <svg>
+          m180logo.svg
+        </svg>
+      </div>
+      <div
+        class="makeStyles-triangleTopleft-13"
+      />
+    </div>
+    <div
+      class="makeStyles-headerText-10"
+    >
+      MATH 180
+    </div>
+    <div
+      class="makeStyles-container-14"
+    >
+      Welcome, 
+      firstname
+      !
+      <button
+        class="makeStyles-logout-16"
+        type="button"
+      >
+        Logout
+      </button>
+    </div>
+  </div>
+  <div>
+    loading...
+  </div>
+</div>
+`;

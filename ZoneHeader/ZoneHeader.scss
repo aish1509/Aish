@@ -1,0 +1,32 @@
+.zone-header {
+  display: flex;
+  flex-wrap: nowrap;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 25px;
+
+  color: #fff;
+  padding: 15px;
+  align-content: center;
+}
+
+.zone-header--explore-zone {
+  background-color: #529a44;
+}
+
+.zone-header--fast-track {
+  background-color: #ff070e;
+}
+
+.zone-header--learn-zone {
+  background-color: #ff8e1e;
+}
+
+.zone-header--success-zone {
+  background-color: #990be2;
+}
+
+.zone-header__text {
+  position: relative;
+  margin-left: 5px;
+  padding-top: 15px;
+}
